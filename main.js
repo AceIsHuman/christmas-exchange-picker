@@ -24,3 +24,19 @@ function getOptionList(group, person) {
 
   return optionList;
 }
+
+function shuffle(list) {
+  let currIndex = list.length,
+    tempVal,
+    ranIndex;
+  while (currIndex !== 0) {
+    ranIndex = Math.floor(Math.random() * currIndex);
+    currIndex -= 1;
+
+    tempVal = list[currIndex];
+    list[currIndex] = list[ranIndex];
+    list[ranIndex] = tempVal;
+  }
+
+  return list;
+}
