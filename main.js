@@ -12,6 +12,9 @@ for (let family of families) {
   }
 }
 
+shuffle(adults);
+shuffle(children);
+
 function getOptionList(group, person) {
   const familyId = person.id;
   const optionList = [];
