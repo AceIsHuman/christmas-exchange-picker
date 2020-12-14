@@ -1,11 +1,11 @@
 {
-  "name": "christmas-exchange-picker",
+  "name": "gift-exchange-api",
   "version": "1.0.0",
-  "description": "A tool to create a christmas exchange list among different households.",
+  "description": "An API for generating a smooth gift exchange selection experience.",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AceIsHuman/christmas-exchange-picker.git"
+    "url": "https://github.com/AceIsHuman/gift-exchange-api.git"
   },
   "dependencies": {
     "uuid": "^8.3.1"
